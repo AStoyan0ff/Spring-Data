@@ -5,7 +5,7 @@ import jakarta.persistence.EntityManagerFactory;
 import jakarta.persistence.Persistence;
 import studentManager.entities.Student;
 
-public class Main {
+public class Application {
     static void main() {
 
         EntityManagerFactory emf = Persistence.createEntityManagerFactory("studentPU");
