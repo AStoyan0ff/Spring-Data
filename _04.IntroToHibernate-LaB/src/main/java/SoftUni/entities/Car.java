@@ -9,7 +9,8 @@ public class Car extends Vehicle {
 
     private int passengers;
 
-    public Car() {}
+    public Car() //Default Constructor
+    {}
 
     public Car(int passengers) {
         this.passengers = passengers;
@@ -19,3 +20,4 @@ public class Car extends Vehicle {
         return passengers;
     }
 }
+
