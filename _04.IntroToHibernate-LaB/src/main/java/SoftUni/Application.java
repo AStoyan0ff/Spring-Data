@@ -8,7 +8,7 @@ import jakarta.persistence.Persistence;
 public class Application {
     static void main() {
 
-        EntityManagerFactory emf = Persistence.createEntityManagerFactory("hibernate-demo");
+        EntityManagerFactory emf = Persistence.createEntityManagerFactory("hibernate-exercise");
         EntityManager em = emf.createEntityManager();
 
         em.getTransaction().begin();
