@@ -15,7 +15,8 @@ public class BookDetail {
     @OneToOne(mappedBy = "bookDetail")
     private Book book;
 
-    public BookDetail() {}
+    public BookDetail() // Default Constructor
+    {}
 
     public BookDetail(String summary) {
         this.summary = summary;
@@ -25,3 +26,4 @@ public class BookDetail {
         this.book = book;
     }
 }
+
