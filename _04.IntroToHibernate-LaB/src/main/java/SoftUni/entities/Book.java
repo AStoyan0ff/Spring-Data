@@ -4,6 +4,7 @@ import jakarta.persistence.*;
 
 @Entity
 @Table(name = "books")
+    
 public class Book {
 
     @Id
@@ -16,11 +17,14 @@ public class Book {
     @JoinColumn(name = "detail_id")
     private BookDetail bookDetail;
 
-    public Book() {}
+    public Book() 
+    {}
 
     public Book(String title, BookDetail detail) {
+        
         this.title = title;
         this.bookDetail = detail;
         detail.setBook(this);
     }
 }
+
