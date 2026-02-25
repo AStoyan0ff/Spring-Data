@@ -45,6 +45,5 @@ public class Application {
         em.getTransaction().commit();
 
         em.close();
-        emf.close();
     }
 }
