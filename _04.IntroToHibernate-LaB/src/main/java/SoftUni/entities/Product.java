@@ -24,7 +24,8 @@ public class Product {
     )
     private Set<Category> categories = new HashSet<>();
 
-    public Product() {}
+    public Product() 
+    {}
 
     public Product(String name) {
         this.name = name;
@@ -35,3 +36,4 @@ public class Product {
         category.getProducts().add(this);
     }
 }
+
