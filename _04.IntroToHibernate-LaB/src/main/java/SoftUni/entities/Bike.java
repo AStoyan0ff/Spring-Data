@@ -8,7 +8,8 @@ public class Bike extends Vehicle {
 
     private int loadCapacity;
 
-    public Bike() {}
+    public Bike() 
+    {}
 
     public Bike(int loadCapacity) {
         this.loadCapacity = loadCapacity;
@@ -18,3 +19,4 @@ public class Bike extends Vehicle {
         return loadCapacity;
     }
 }
+
