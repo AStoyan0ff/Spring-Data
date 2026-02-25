@@ -5,7 +5,7 @@
              https://jakarta.ee/xml/ns/persistence/persistence_3_1.xsd"
              version="3.1">
 
-    <persistence-unit name="hibernate-demo"
+    <persistence-unit name="hibernate-exercise"
                       transaction-type="RESOURCE_LOCAL">
 
         <properties>
@@ -31,4 +31,5 @@
         </properties>
 
     </persistence-unit>
+
 </persistence>
