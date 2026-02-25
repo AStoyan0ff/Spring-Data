@@ -17,7 +17,8 @@ public class Author {
     @OneToMany(mappedBy = "author",  cascade = CascadeType.ALL, fetch = FetchType.LAZY)
     private Set<BookEntity> books = new HashSet<>();
 
-    public Author() {}
+    public Author() 
+    {}
 
     public Author(String name) {
         this.name = name;
@@ -28,4 +29,5 @@ public class Author {
         book.setAuthor(this);
     }
 }
+
 
