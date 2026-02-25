@@ -13,9 +13,11 @@ public abstract class Vehicle {
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     private Long id;
 
-    protected Vehicle() {}
+    protected Vehicle() 
+    {}
 
     public Long getId() {
         return id;
     }
 }
+
