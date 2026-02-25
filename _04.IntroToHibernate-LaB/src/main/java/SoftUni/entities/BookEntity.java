@@ -17,7 +17,8 @@ public class BookEntity {
     @JoinColumn(name = "author_id")
     private Author author;
 
-    public BookEntity() {}
+    public BookEntity() 
+    {}
 
     public BookEntity(String title) {
         this.title = title;
@@ -27,3 +28,4 @@ public class BookEntity {
         this.author = author;
     }
 }
+
